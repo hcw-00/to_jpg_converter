@@ -41,7 +41,7 @@ def btncmd_jpg():
 def quit():
     root.destroy()
 
-btn = Button(root, text="to jpg", command=btncmd_jpg)
+btn = Button(root, text="Convert to jpg", command=btncmd_jpg)
 btn.pack()
 
 btn_end = Button(root, text="Quit", command=quit)
