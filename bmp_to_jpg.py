@@ -10,7 +10,7 @@ def copy_files(src, dst, extension):
             continue
         full_file_name = os.path.join(src, file_name)
         if os.path.isfile(full_file_name):
-            if full_file_name[-4:] != extension:
+            if full_file_name[-4:] != extension and full_file_name[-4:] == '.bmp':
                 temp_img = cv2.imread(full_file_name)
                 cv2.imwrite(os.path.join(dst,file_name[:-4]+extension), temp_img)
             else:
