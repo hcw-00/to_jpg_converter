@@ -3,7 +3,7 @@ convert every image in directory to jpg format.
 
 Usage:  
 ~~~
-python to_jpg.py
+python bmp_to_jpg.py
 ~~~
 to generate .exe file, type below line in cmd  
-/> pyinstaller -w ./to_jpg.py
+/> pyinstaller -w ./bmp_to_jpg.py
